@@ -119,3 +119,6 @@ dist
 # secrets
 .env*
 
+# built files
+out_functions
+out_publish

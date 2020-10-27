@@ -24,7 +24,7 @@ export async function getStaticProps() {
   })
     .then(res => res.items)
   return {
-    revalidate: 100,
+    revalidate: 1,
     props: {
       posts 
     }
